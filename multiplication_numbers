@@ -1,0 +1,9 @@
+#Printing_multiplication_of_numbers_from_1_to_3
+
+set m 3
+set n 10
+for {set i 1} {$i<=$} {incr i}  {
+    for {set j 1} {$j<=$n} {incr j} {
+    puts "$i*$j = [expr $i*$j]"    
+    }
+}
